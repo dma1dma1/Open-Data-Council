@@ -1,0 +1,71 @@
+/* General */
+hr.divider {
+    border-color: #A8003B;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #A8003B;
+    border-color: #A8003B;
+  }
+.btn-primary:hover {
+    color: #fff;
+    background-color: #A8003B;
+    border-color: #CC0047;
+}
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #A8003B;
+    border-color: #CC0047;
+    box-shadow: none !important;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #A8003B;
+    border-color: #A8003B;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #CC0047;
+    border-color: #CC0047;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+
+.bg-primary {
+    background-color: #2D3742 !important;
+}
+
+/* NavBar */
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #A8003B !important;
+}
+
+#mainNav.navbar-scrolled .navbar-brand {
+    color: #212529 !important;
+}
+#mainNav.navbar-scrolled .navbar-brand:hover {
+    color: #A8003B !important;
+}
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+    color: #212529 !important;
+}
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+    color: #A8003B !important;
+}
+
+/* MastHead */
+header.masthead {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../assets/img/stanford.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header.masthead h1 {
+    font-size: 3rem;
+}
+
+/* Project */

@@ -1,14 +1,18 @@
 {
   "name": "open-data-council",
   "version": "1.0.0",
-  "description": "\"Open Data Council Website\"",
+  "description": "Open Data Council",
   "main": "server.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "private": true,
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "start",
+    "start": "nodemon"
+  },
+  "nodemonConfig": {
+    "signal": "SIGTERM",
+    "watch": ["lib", "src", "server.js"],
+    "ext": "html, js, json, css"
   },
   "repository": {
     "type": "git",
